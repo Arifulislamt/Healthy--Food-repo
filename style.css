@@ -1,0 +1,85 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 55px;
+}
+.Healthy-Food{
+    color: #fb5d1f;
+}
+.flexible-container{
+    display: flex;
+    margin-left: 4%;
+}
+.helf-width{
+    width: 50%;
+    padding-left: 2%;
+}
+#background{
+    background-image: url(pic.png);
+    background-repeat: no-repeat;
+    margin-left: 250px;
+    margin-top: 200px;
+}
+#back{
+    margin-right: 800px;
+}
+#About{
+    text-align: justify;
+    margin-right: 250px;
+}
+#food-name{
+    text-align: center;
+    color: #504949;
+    margin-top: 100px;
+}
+
+/* cards */
+#margin{
+    margin-left: 10%;
+    margin-top: 200px;
+}
+
+.cards{
+    margin: 5%;
+    width: 18%;
+    border-radius: 10px 10px;
+    box-shadow: 5px 5px 10px gray;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block
+}
+.img img{
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 100%;
+    border-radius: 19px;
+
+}
+.taitl{
+    text-align: center;
+    color: purple;
+}
+.dis{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.button{
+    background-image: linear-gradient(orange,tomato);
+    padding: 5px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+footer{
+    background-color: #000000;
+    text-align: center;
+    margin-right: 350px;
+    margin-left: 100px;
+    height: 200px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer #foot{
+    color: orange;
+}
